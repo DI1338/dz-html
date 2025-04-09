@@ -1,35 +1,47 @@
-<!DOCTYPE html>
-1-html
+ <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой блог</title>
+    <title>Блог</title>
 </head>
 <body>
     <header>
+        <div class="logo">
+            <p>В <a href="#">Мой блог</a></p>
+            </div>
         <nav>
-            <span>
-                В
-                <a href="#">Мой блог</a>
-                <a href="#">HTML и CSS</a>
-                <a href="#">Frontend</a>
-                <a href="#">Backend</a>
-                <a href="#">Поиск</a>
-            </span>
+            <ul>
+                <li><a href="#">HTML и CSS</a></li>
+                <li><a href="#">Frontend</a></li>
+                <li><a href="#">Backend</a></li>
+            </ul>
         </nav>
+        <form action="#">
+<div>
+<input type="search" name="search" placeholder="Поиск">
+</div>
+        </form>
     </header>
     <main>
-        <section>
-            <h1> FRONTEND &#8901 <time datetime="2024-05-12">12 мая 2024</time></h1>
-            <h2>Теория цвета &#45 Как цвет влияет на поведение потребителей</h2>
+        <div>
+            <ul>
+                <li>FRONTEND</li>
+                <li>&#8901</li>
+                <li><time datetime="2024-05-12">12 мая 2024</time></li>
+            </ul>
+            <h1>Теория цвета &#45 Как цвет влияет на поведение потребителей</h1>
+            </div>
             <div>
                 <img src="./images/image 1.jpeg" alt="Аватарка девушки">
-                <h3>Наталья Васильева Разработчик</h3>
+                <div>
+<p>Наталья Васильева</p>
+<p>Разработчик</p>
+                </div>
             </div>
+            <section>
             <img src="./images/image 2.jpeg" alt="Монитор компьютера">
-        </section>
-        <section>
+            <div>
             <p>
                 Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета
                 и
@@ -60,10 +72,11 @@
                 только на
                 его цвете.
             </p>
+            </div>
         </section>
     </main>
 </body>
 <footer>
-    Все права защищены (c) 2024
+    <p>Все права защищены &copy; 2024</p>
 </footer>
 </html>
