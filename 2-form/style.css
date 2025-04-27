@@ -1,0 +1,76 @@
+body {
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+   background: #fffefe;
+}
+main {
+    background-color: #FFFEFE;
+   background: linear-gradient(0deg, #F39494, #F39494),
+         linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+         linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
+}
+ .container {
+      border-radius: 10px;
+      width: 582px;
+      height: 573px;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+      background: #fffefe;
+ }
+h1 {
+   color: #333333;
+   font-family: Open Sans;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+}
+p {
+   color: #666666;
+      font-family: Open Sans;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+}
+a {
+   color: #089fe0;
+   font-family: Open Sans;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-decoration: underline;
+      text-decoration-style: solid;
+      text-decoration-offset: 0%;
+      text-decoration-thickness: 0%;
+      text-align: center;
+}
+ input {
+   background-color: #F5F5F5;
+   border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #999;
+ }
+ button {
+   color: #FFFFFF;
+   background-color: #089fe0;
+   font-family: Open Sans;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+ }
+ .checkbox{
+   color:  #666666;;
+   font-family: Open Sans;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 100%;
+   letter-spacing: 0%;
+   text-decoration: none;
+ }
+ 
