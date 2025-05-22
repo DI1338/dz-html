@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    background: linear-gradient(225deg, #fdc5c5 25.45%, #F298DE 100%),
+        linear-gradient(225deg, #ffa5a5 33.09%, #FFFFFF 82.34%);
+    background-color: #F39494;
+    max-width: 1440px;
+    height: 1024px;
+    padding: 225px 429px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin: 72px 106px 0 93px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #666;
+    width: 237px;
+    height: 26px;
+    margin: 0 172px 47px 173px;
+}
+
+button {
+    background-color: #089fe0;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.register input {
+    background-color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #999;
+}
+
+.container {
+    max-width: 582px;
+    min-width: 360px;
+    width: 600px;
+    height: 573px;
+    background-color: #FFFEFE;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 36px;
+    color: #333;
+}
+
+.container a {
+    color: #089fe0;
+}
+
+.checkbox {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+}
+
+.checkbox a {
+    text-decoration: none;}
